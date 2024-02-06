@@ -1,0 +1,29 @@
+@import './globals.css';
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    transition: .2s linear;
+    border-radius: 10px;
+}
+
+.favorite-button {
+    background-color: rgb(var(--emphasis-text-color));
+}
+
+.favorite-button:hover {
+    background-color: rgb(var(--emphasis-text-color-hover));
+}
+
+.comment-button {
+    background-color: rgb(var(--background-comment-button));
+}
+
+.comment-button:hover {
+    background-color: rgb(215, 160, 13);
+}

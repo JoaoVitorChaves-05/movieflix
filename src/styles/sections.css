@@ -1,0 +1,41 @@
+
+.main-section > .box > h1 {
+    line-height: 3.5rem;
+}
+
+.main-section > .box > hr {
+    border-color: rgb(var(--emphasis-text-color));
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    width: 40%;
+}
+
+.main-section > .box > figure {
+    margin-bottom: 1rem;
+}
+
+.main-section > .box > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.box-images {
+    column-count: 4;
+    column-gap: 1rem;
+}
+
+.main-button {
+    background-color: rgb(var(--emphasis-text-color));
+    border-radius: 1.5rem;
+    margin-top: 3vh;
+    transition: .2s linear;
+}
+
+.main-button:hover {
+    background-color: rgb(var(--emphasis-text-color-hover));
+}
+
+.movies-container {
+    column-count: 5;
+    column-gap: auto;
+}

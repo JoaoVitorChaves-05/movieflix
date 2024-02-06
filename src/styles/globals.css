@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  --primary-text-color: 180, 0, 0;
+  --active-text-color: 255, 255, 255;
+  --desactive-text-color: 100, 100, 100;
+  --emphasis-text-color: 212, 13, 13;
+  --emphasis-text-color-hover: 192, 13, 13;
+  --background-color-items: 31, 31, 31;
+  --background-comment-button: 235, 160, 13;
+  --comment-buton-hover: 215, 160, 13;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.primary-text-color {
+  color: rgb(var(--primary-text-color));
+}
+
+.active-text-color {
+  color: rgb(var(--active-text-color));
+}
+
+.desactive-text-color {
+  color: rgb(var(--desactive-text-color));
+}
+
+.emphasis-text-color {
+  color: rgb(var(--emphasis-text-color));
+  text-transform: uppercase;
+}
+
+header {
+  background-color: rgb(var(--background-color-items));
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  color: white;
+}

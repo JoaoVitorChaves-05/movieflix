@@ -1,0 +1,16 @@
+.form {
+    background-color: rgb(var(--background-color-items));
+}
+
+.confirm-button {
+    background-color: rgb(var(--emphasis-text-color));
+}
+
+.confirm-button:hover {
+    background-color: rgb(var(--emphasis-text-color-hover));
+}
+
+.input {
+    height: 40px;
+    color: black;
+}

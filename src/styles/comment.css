@@ -1,0 +1,4 @@
+.comment {
+    background-color: rgb(var(--background-color-items));
+    padding: 20px;
+}

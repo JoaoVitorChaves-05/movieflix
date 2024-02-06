@@ -24,7 +24,7 @@ model User {
 model Comment {
   comment_id Int @id @default(autoincrement())
   title String
-  content String @db.LongText
+  content String @db.Text
   author User @relation(fields: [author_id], references: [user_id])
   author_id Int
   movie_id Int

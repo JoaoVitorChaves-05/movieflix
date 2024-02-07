@@ -147,7 +147,7 @@ export default function Movies({params}) {
             <div className='flex flex-col py-4 xl:px-40 md:px-20 px-10'>
                 <h2 className='text-center md:text-4xl text-2xl font-extrabold mb-5'>Comentários</h2>
                 <section className='flex flex-col items-center gap-4'>
-                    {comments ? comments.map((comment) => (<div className='flex flex-col comment md:w-3/4 w-100'>
+                    {comments ? comments.map((comment, index) => (<div key={index} className='flex flex-col comment md:w-3/4 w-100'>
                         <h3 className='md:text-2xl text-xl mb-5'>{comment.title}</h3>
                         <p className='mb-5'>{comment.content}</p>
                         <p>Escrito por: <b>{comment.author.username}</b></p>
